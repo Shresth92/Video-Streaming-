@@ -29,3 +29,4 @@ while True:
                 if key == ord('q'):
                     cv2.destroyAllWindows()
                     cv2.release()
+                    socket_name.close()
